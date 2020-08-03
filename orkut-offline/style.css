@@ -1,0 +1,72 @@
+.nav-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #BFD0EA;
+  padding-left: 15px;
+  /*&__link + &__link  {
+    }*/
+}
+
+.nav-top li {
+  list-style: none;
+  border-right: 1px solid;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+
+.nav-top li:last-child {
+  border: none;
+}
+
+.nav-top__link {
+  font-family: Verdana;
+  font-size: 11px;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-top__link:hover {
+  color: #fff;
+}
+
+body {
+  background-color: #D4DDED;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+
+#login-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  width: 100vw;
+  max-height: 452px;
+  margin-top: 15px;
+}
+
+#login-wrapper #text-intro {
+  width: 60%;
+  margin-top: 20px;
+}
+
+#login-wrapper #text-intro p {
+  text-align: center;
+}
+
+#login-wrapper #text-intro #wdyk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#login-wrapper #text-intro #login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
