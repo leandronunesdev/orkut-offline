@@ -1,0 +1,67 @@
+
+.nav-top {
+    display: flex;
+    background-color: #BFD0EA;
+    padding-left: 15px;
+  
+    li {
+      list-style: none;
+      border-right: 1px solid;
+      padding-right: 5px;
+      margin-left: 5px;
+  
+      &:last-child {
+        border: none
+      }
+    }
+    
+    &__link {
+      font-family: Verdana;
+      font-size: 11px;
+      color: #000;
+      text-decoration: none;
+  
+      &:hover {
+        color: #fff
+      }
+    }
+  
+    /*&__link + &__link  {
+    }*/
+  }
+
+  body {
+    background-color: #D4DDED;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+  }
+
+//Login Wrapper.
+
+#login-wrapper{
+  display: flex;
+  background: white;
+  width: 100vw;
+  max-height: 452px;
+  margin-top: 15px;
+  #text-intro{
+    width: 60%;
+    margin-top: 20px;
+    p{
+      text-align: center;
+    }
+    #wdyk{
+      display: flex;      
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  #login-form{
+    display: flex;
+    
+  }
+  }
+  
+  
+
+}
