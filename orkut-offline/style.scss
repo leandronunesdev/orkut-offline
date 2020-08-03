@@ -1,3 +1,5 @@
+$prymaryColor: #A1BBE4;
+$borderColor: #D4DDED;
 
 .nav-top {
     display: flex;
@@ -34,6 +36,8 @@
     background-color: #D4DDED;
     font-family: Verdana, sans-serif;
     font-size: 12px;
+    margin-left: 15px;
+    
   }
 
 //Login Wrapper.
@@ -57,11 +61,23 @@
       margin-bottom: 15px;
     }
   #login-form{
-    display: flex;
+    display: flex;  
+
+    }
     
   }
   }
-  
-  
 
+#footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  #disclaimer{
+    border-top: $borderColor solid 1px;    
+  }
+  #links{
+    background-color: $prymaryColor;
+    color: white;
+    border-top: $borderColor solid 1px;
+  }
 }
