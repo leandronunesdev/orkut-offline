@@ -1,0 +1,64 @@
+:root{
+    --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100%;    
+}
+
+body{
+    background: url(./images/bg-desktop.png) no-repeat center bottom;
+    background-color: var(--very-dark-blue);
+    background-size: contain;
+}
+
+/* ICONS BOX */
+
+.icons-box{
+    background-color: var(--dark-blue);
+    width: 320px;
+    border-radius: 10px 90px 10px 10px;
+}
+
+.icons-box > div:first-child{
+    padding: 30px 0 20px 30px;
+}
+
+.icons-box > div:last-child{
+    padding: 0 0 30px 30px;
+}
+
+.icons-box .icons{
+    display: flex;
+    align-items: center;    
+}
+
+.icon{
+    padding: 5px;
+    margin-right: 10px;
+    background-color: var(--very-dark-blue);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;   
+}
+
+.icon > img{
+    margin: 0 auto;
+}
+
+/* LOAD BAR */
+
+
+
